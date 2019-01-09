@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `hotelbooking`.`rooms` (
+  `id` VARCHAR(3) NOT NULL,
+  `type` VARCHAR(10) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`plate` ASC))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1
